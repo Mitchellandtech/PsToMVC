@@ -1,31 +1,181 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = " Mitchell and Tech";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<section class="hero">
+    <div class="hero__slider owl-carousel">
+        <div class="hero__items set-bg" data-setbg="~/Content/img/desktop.jpg">
+            <div class="hero__text">     
+                <h2 class="intro">Brandan Mitchell</h2>
+                <a href="#" class="primary-btn">See Project</a>
+                <a href="#" class="more_btn">Discover more</a>
+                <div class="hero__social">
+                    <a href="https://twitter.com/thaSpok3nTruth"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero__items set-bg" data-setbg="~/Content/img/desktop.jpg">
+            <div class="hero__text">
+                <h2 class="intro">Full Stack Web Developer</h2>
+                <a href="#projects" class="primary-btn">See Project</a>
+                <a href="#" class="more_btn">Discover more</a>
+                <div class="hero__social">
+                    <a href="https://twitter.com/thaSpok3nTruth" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide-num" id="snh-1"></div>
+    <div class="slider__progress"><span></span></div>
+</section>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+<section class="about spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about__text">
+                    <div class="section-title">
+                        <h2>Who Am I?</h2>
+                    </div>
+                    <div class="about__para__text">
+                        <p>
+                            My name is Brandan Mitchell. I am a full stack web developer in the .Net Framework. After years of working in customer service and becoming a lead installer doing HVAC I've decided to take those client relations, ability to meet deadlines on time, attention to detail and troubleshooting skills and apply them to Full Stack web development. I am looking to establish myself in the exciting world of IT because I enjoy challenges, constant learning, and the advancement of technology. I took it upon myself to learn code on my own at Codecademy and after completing their HTML and CSS Courses I was hooked. To further my education I enrolled at Centriq. While attending Centriq I was able to learn SQLServer, jQuery, .Net MVC, JavaScript, HTML, and CSS. I am currently in the development of numerous projects listed below. If you or a company you know is looking for a new addition to their team please feel free to contact me.
+                        </p>
+                    </div>
+                    <a href="#" class="primary-btn normal-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about__pic">
+                    <div class="about__pic__inner">
+                        <img src="~/Content/img/profile headshot.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+</section>
+
+<section id="projects" class="project">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2>Latest projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="project__slider owl-carousel">
+                <div class="col-lg-3">
+                    <div class="project__slider__item set-bg" data-setbg="~/Content/img/pexels-markus-spiske-131778.jpg" alt="Web Design">
+                        <div class="project__slider__item__hover">
+                            <span>Personal projects</span>
+                            <a href="http://fed1.mitchellandtech.com/" target="_blank"><h5> Forex Trading Company</h5></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="project__slider__item set-bg" data-setbg="~/Content/img/pexels-photomix-company-230544.jpg" alt="eCommerce">
+                        <div class="project__slider__item__hover">
+                            <span>eCommerce</span>
+                            <h5>Coming Soon...</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="project__slider__item set-bg" data-setbg="~/Content/img/pexels-pixabay-270348.jpg" alt="Dungeon app">
+                        <div class="project__slider__item__hover">
+                            <span>Game Developement</span>
+                            <h5>Text Adventure "Tomb of the Lost Souls"</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="project__slider__item set-bg" data-setbg="~/Content/img/pexels-karolina-grabowska-4386375.jpg" alt="Change converter">
+                        <div class="project__slider__item__hover">
+                            <span>Calculators</span>
+                            <h5>Change Converter</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="project__slider__item set-bg" data-setbg="~/Content/img/pexels-fernando-arcos-211122.jpg" alt="Water weight converter">
+                        <div class="project__slider__item__hover">
+                            <span>Water Weight</span>
+                            <h5>Coming Soon...</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+</section>
+
+<section class="services spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>My Tech</span>
+                    <h2>Knowledge</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="~/Content/Icons/icons8-css-96.png" alt="CSS" />
+                    <h4>Cascading Style Sheets</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="services__item">
+                    <img src="~/Content/Icons/icons8-javascript-96.png" />
+                    <h4>JavaScript</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6col-sm-6">
+                <div class="services__item">
+                    <img src="~/Content/Icons/icons8-html-5-96.png" />
+                    <h4>HTML</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6col-sm-6">
+                <div class="services__item">
+                    <img src="~/Content/Icons/icons8-c-sharp-logo-96.png" />
+                    <h4>C#</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="logo__carousel owl-carousel">
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/jQuery logo.png" alt="jQuery" /></a>
+                    </div>
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/ASP .NET.png" alt="ASP .NET" /></a>
+                    </div>
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/BootStrap.png" alt="bootstrap" /></a>
+                    </div>
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/SQL.png" alt="SQL" /></a>
+                    </div>
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/VisualStudio.png" alt="Visual Studio" /></a>
+                    </div>
+                    <div class="logo__carousel__item">
+                        <a href="#"><img src="~/Content/Icons/xml.png" alt="XML" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
+</section>

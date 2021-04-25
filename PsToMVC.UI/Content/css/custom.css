@@ -1,0 +1,95 @@
+﻿body {
+    background-color: lightgray; 
+
+
+}
+
+.section-title span {
+    color: yellow;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.header__menu ul li a:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: #f4e239;
+    content: "";
+    -webkit-transition: all, 0.4s;
+    -o-transition: all, 0.4s;
+    transition: all, 0.4s;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.primary-btn.normal-btn:before {
+    border-color: white;
+}
+
+.primary-btn.normal-btn:after {
+    border-color: white;
+}
+
+.footer__top__newslatter form button {
+    font-size: 14px;
+    color: #ffffff;
+    background: lightgrey;
+    border: none;
+    height: 100%;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.project__slider__item__hover span {
+    color: #f4e239;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all, 1s;
+}
+
+.header.header-normal {
+    position: relative;
+    padding: 30px 0 30px;
+}
+
+a {
+    color: black;
+    background-color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+    a hover {
+       color: black;
+       
+    }
+
+hr {
+background-color: white;
+height: 2px;
+}
+
+div p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.intro {
+    text-shadow: 10px 5px 10px black;
+    
+}
