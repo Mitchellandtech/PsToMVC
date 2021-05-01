@@ -13,16 +13,15 @@ namespace PsToMVC.UI.Controllers
             return View();
         }
 
-        public ActionResult About()
+
+        public ActionResult Contact()
         {
-          
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Resume()
         {
-    
 
             return View();
         }

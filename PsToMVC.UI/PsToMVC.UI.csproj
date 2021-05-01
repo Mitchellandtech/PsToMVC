@@ -240,6 +240,7 @@
     <Content Include="Scripts\main.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\slick.min.js" />
+    <Content Include="_Archive\about.html" />
     <Content Include="_Archive\blog.html" />
     <Content Include="_Archive\contacts.html" />
     <Content Include="_Archive\css\bootstrap.min.css" />
@@ -363,7 +364,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="_Archive\css\style.css.map" />
@@ -375,6 +375,8 @@
     <Content Include="_Archive\fonts\fontawesome-webfont.woff" />
     <Content Include="_Archive\fonts\fontawesome-webfont.woff2" />
     <Content Include="_Archive\fonts\FontAwesome.otf" />
+    <Content Include="Views\Home\Resume.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

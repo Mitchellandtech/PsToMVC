@@ -4,34 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Portfolio">
-    <meta name="keywords" content="Staging, unica, creative, html">
+    <meta name="keywords" content="Mitchell and Tech, C#, MVC, HTML, Brandan Mitchell, Who Am I, Latest Projects">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@ViewBag.Title</title>
+    <title>Mitchell and Tech</title>
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-    
+
     <link rel="shortcut icon" type="image/svg" href="~/Content/img/screenshot-www.brandcrowd.com-2021.03.30-22_55_06 (3).png" />
+
 
     <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="~/Content/css/font-awesome.min.css" type="text/css">
+
     <link rel="stylesheet" href="~/Content/css/elegant-icons.css" type="text/css">
     <link rel="stylesheet" href="~/Content/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="~/Content/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/slick.css" type="text/css">
     <link rel="stylesheet" href="~/Content/css/style.css" type="text/css">
     <link href="~/Content/css/custom.css" rel="stylesheet" />
-
 
 </head>
 
 <body>
 
-    @*<div id="preloder">
-            <div class="loader"></div>
-        </div>*@
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
@@ -55,8 +57,8 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
-                            <li><a href="@Url.Action("About", "Home")">R&eacute;sum&eacute;</a></li>
-                            <li><a href="@Url.Action("Contat","Home")">Contact</a></li>
+                            <li><a href="@Url.Action("Resume", "Home")">R&eacute;sum&eacute;</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -70,7 +72,7 @@
         @RenderBody()
     </section>
 
-    <footer class="footer set-bg" data-setbg="~/Content/img/footer-bg.jpg">
+    <footer class="footer set-bg" data-setbg="../../Content/img/footer-bg.jpg">
         <div class="container">
 
             <div class="row">
@@ -113,11 +115,17 @@
         </div>
     </footer>
 
+  
     <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    
     <script src="~/Scripts/bootstrap.min.js"></script>
+    
     <script src="~/Scripts/jquery.slicknav.js"></script>
+    
     <script src="~/Scripts/owl.carousel.min.js"></script>
+    
     <script src="~/Scripts/slick.min.js"></script>
+  
     <script src="~/Scripts/main.js"></script>
 </body>
 
