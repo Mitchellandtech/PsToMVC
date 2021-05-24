@@ -222,13 +222,13 @@ ol {
 }
 
 .site-btn {
-	font-size: 16px;
-	color: #ffffff;
-	background: #dfa667;
-	font-weight: 600;
-	border: none;
-	display: inline-block;
-	padding: 14px 36px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #f4e239;
+    font-weight: 600;
+    border: none;
+    display: inline-block;
+    padding: 14px 36px;
 }
 
 /* Preloder */
@@ -1011,10 +1011,10 @@ ol {
 	margin-bottom: 6px;
 }
 
-.team__text .team__title span {
-	font-size: 14px;
-	color: #dfa667;
-}
+    .team__text .team__title span {
+        font-size: 14px;
+        color: #f4e239;
+    }
 
 .team__text p {
 	color: #b7b7b7;
@@ -1624,11 +1624,11 @@ ol {
 	margin-right: 28px;
 }
 
-.counter__item__number h2 {
-	color: #dfa667;
-	font-size: 60px;
-	line-height: 52px;
-}
+    .counter__item__number h2 {
+        color: #f4e239;
+        font-size: 60px;
+        line-height: 52px;
+    }
 
 .counter__item__text {
 	overflow: hidden;
@@ -2477,11 +2477,11 @@ ol {
 	overflow: hidden;
 }
 
-.contact__widget__item__text h5 {
-	color: #dfa667;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-}
+    .contact__widget__item__text h5 {
+        color: yellow;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
 
 .contact__widget__item__text span {
 	color: #111111;

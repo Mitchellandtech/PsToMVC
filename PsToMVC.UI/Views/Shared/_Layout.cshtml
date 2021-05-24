@@ -7,7 +7,10 @@
     <meta name="keywords" content="Mitchell and Tech, C#, MVC, HTML, Brandan Mitchell, Who Am I, Latest Projects">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mitchell and Tech</title>
+    @{
+        ViewBag.Title = "Mitchell and Tech";
+    }
+    <title>@ViewBag.Title</title>
 
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
@@ -58,6 +61,7 @@
                         <ul>
                             <li><a href="@Url.Action("Index", "Home")">Home</a></li>
                             <li><a href="@Url.Action("Resume", "Home")">R&eacute;sum&eacute;</a></li>
+                            <li><a href="@Url.Action("Team", "Home")">Team</a></li>
                             <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
                         </ul>
                     </nav>
@@ -127,6 +131,8 @@
     <script src="~/Scripts/slick.min.js"></script>
   
     <script src="~/Scripts/main.js"></script>
+
+    <script src="~/Scripts/custom.js"></script>
 </body>
 
 </html>

@@ -1,18 +1,11 @@
 ﻿@{
-    ViewBag.Title = "Mitchell and Tech";
+    ViewBag.Title = "Contact";
 }
 
-<div class="breadcrumb-option spad set-bg" data-setbg="../../Content/img/desktop.jpg">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="breadcrumb__text">
-                    <h2 class="intro">Contact</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><!-- Header Section End -->
+<div>
+    @Html.Partial("_HeaderPartial")
+</div>
+
 <!-- Contact Section Begin -->
 <section class="contact spad">
     <div class="container">
@@ -56,16 +49,23 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact__form">
-                        <form action="#">
+                        <form action="#" method="get" onsubmit="validateForm(event)">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" id="tbName" name="name" class="form-control" placeholder="Name">
+                                    <span id="rfvName" class="invalid"></span>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                                    <span id="rfvEmail" class="invalid"></span>
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Message"></textarea>
+                         <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                                    <span id="rfvSubject" class="invalid"></span>
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                                    <span id="rfvMessage" class="invalid"></span>
                                     <button type="submit" class="site-btn">Send Message</button>
                                 </div>
                             </div>

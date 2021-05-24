@@ -1,84 +1,121 @@
 ﻿
 @{
-    @ViewBag.Title
+    ViewBag.Title = "Our Team";
+}
+<div>
+    @Html.Partial("_HeaderPartial")
+</div>
 
-
-    <section class="team spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9 col-md-8 col-sm-6">
-                    <div class="section-title">
-                        <span>Our Team</span>
-                        <h2>Meet our team</h2>
-                    </div>
+<section class="team spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-6">
+                <div class="section-title">
+                    <span>Meet</span>
+                    <h2>@ViewBag.Title</h2>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="team__btn">
-                        <a href="#" class="primary-btn normal-btn">View All</a>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/1618839765073.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Carter Croft</h5>
+                        </div>
+                        <p>
+                            Full Stack Web Developer
+                        </p>
+                        <div class="team__social">
+                            <a href="http://croftcoding.com/" target="_blank"><i class="fa fa-user"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h5>Dolores Webster</h5>
-                                <span>CEO & Founder</span>
-                            </div>
-                            <p>
-                                Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
-                                porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
-                                ultricies nisl sit amet.
-                            </p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/1615612827561.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Jordan Hickman</h5>
+                        </div>
+                        <p>
+                            As a professional in the specialty coffee industry I have learned a lot and have grown. From quality control management, proficiency in business start ups, to educational courses with new hires and public enthusiasts. One of my best achievements was helping a business earn Best Of The Northland 3 years in a row as Coffee Roaster and Team Trainer and Quality Control expert. 
+                        </p>
+                        <div class="team__social">
+                            <a href="#"><i class="fa  fa-user"></i></a>
+                            <a href="https://www.linkedin.com/in/jordan-hickman-dev" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-2.jpg">
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h5>Dana Vaughn</h5>
-                                <span>Architect</span>
-                            </div>
-                            <p>
-                                Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
-                                porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
-                                ultricies nisl sit amet.
-                            </p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/1618956718679.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Taylor Griffin</h5>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="team__item set-bg" data-setbg="img/team/team-3.jpg">
-                        <div class="team__text">
-                            <div class="team__title">
-                                <h5>Jonathan Mcdaniel</h5>
-                                <span>Architect</span>
-                            </div>
-                            <p>
-                                Vestibulum dapibus odio quam, sit amet hendrerit dui ultricies consectetur. Ut viverra
-                                porta leo, non tincidunt mauris condimentum eget. Vivamus non turpis elit. Aenean
-                                ultricies nisl sit amet.
-                            </p>
-                            <div class="team__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
+                        <p>
+                            -Hardworking, passionate, and determined to continue learning and growing in the tech field-
+                        </p>
+                        <div class="team__social">
+                            <a href="https://www.linkedin.com/in/taylor-griffin-51909b206" target="_blank"><i class="fa  fa-user"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/no-profile-picture-icon-11.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Enrique Garcia</h5>
+                        </div>
+                        <p>
+                           Full Stack Web Developer
+                        </p>
+                        <div class="team__social">
+                            <a href="#"><i class="fa  fa-user"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/1618355847841.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Wes Nelson</h5>
+                        </div>
+                        <p>
+                            Formerly a music major, my creativity is a big strength when it comes to my skill set. I am able to think critically and find new solutions to problems I face.
+                            I love meeting new people, I'm an outgoing person, yet someone you can really connect with.
+                        <div class="team__social">
+                            <a href="http://codebywes.com/" target="_blank"><i class="fa  fa-user"></i></a>
+                            <a href="https://www.linkedin.com/in/wesnelsondev"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team__item set-bg" data-setbg="../../Content/img/1617334178224.jpg" alt="Profile pic">
+                    <div class="team__text">
+                        <div class="team__title">
+                            <h5>Edward Barrier</h5>
+                        </div>
+                        <p>
+                            I'm a self-motivated full-stack developer in the .NET framework. A few years ago I decided to go down the college route. I didn't know what I wanted to do, I just knew I was good with computers so I majored in Computer Science. A couple years in I decided college wasn't for me, I couldn't focus on general education classes which caused my GPA to suffer.
+                        </p>
+                        <div class="team__social">
+                            <a href="http://edwardbarrier.com/" target="_blank"><i class="fa  fa-user"></i></a>
+                            <a href="https://www.linkedin.com/in/edwardbarrieriii/>"target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -20,6 +20,11 @@ namespace PsToMVC.UI.Controllers
             return View();
         }
 
+        public ActionResult Team()
+        {
+            return View();
+        }
+
         public ActionResult Resume()
         {
 

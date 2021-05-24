@@ -149,6 +149,11 @@
     <Content Include="Content\Icons\visual-studio-logo.jpg" />
     <Content Include="Content\Icons\VisualStudio.png" />
     <Content Include="Content\Icons\xml.png" />
+    <Content Include="Content\img\1615612827561.jpg" />
+    <Content Include="Content\img\1617334178224.jpg" />
+    <Content Include="Content\img\1618355847841.jpg" />
+    <Content Include="Content\img\1618839765073.jpg" />
+    <Content Include="Content\img\1618956718679.jpg" />
     <Content Include="Content\img\about-pic.jpg" />
     <Content Include="Content\img\blog\blog-1.jpg" />
     <Content Include="Content\img\blog\blog-2.jpg" />
@@ -184,6 +189,7 @@
     <Content Include="Content\img\logo\logo-5.png" />
     <Content Include="Content\img\logo\screenshot-www.brandcrowd.com-2021.03.30-22_55_06 %284%29.png" />
     <Content Include="Content\img\mitchell ans tech.png" />
+    <Content Include="Content\img\no-profile-picture-icon-11.jpg" />
     <Content Include="Content\img\pexels-fernando-arcos-211122.jpg" />
     <Content Include="Content\img\pexels-karolina-grabowska-4386375.jpg" />
     <Content Include="Content\img\pexels-markus-spiske-131778.jpg" />
@@ -235,6 +241,7 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery.slicknav.js" />
     <Content Include="Scripts\main.js" />
@@ -348,6 +355,7 @@
     <Content Include="_Archive\js\owl.carousel.min.js" />
     <Content Include="_Archive\js\slick.min.js" />
     <Content Include="Content\css\style.css.map" />
+    <Content Include="Content\img\Web dev Resume.docx" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
@@ -377,6 +385,7 @@
     <Content Include="_Archive\fonts\FontAwesome.otf" />
     <Content Include="Views\Home\Resume.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Shared\_HeaderPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
